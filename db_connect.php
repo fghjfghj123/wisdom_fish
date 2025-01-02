@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "";  // 通常XAMPP預設密碼為空
-$dbname = "fishing_db";
+$password = "";
+$dbname = "fishing_db";  // 使用的資料庫名稱
 
 // 建立連線
 $conn = new mysqli($servername, $username, $password, $dbname);
